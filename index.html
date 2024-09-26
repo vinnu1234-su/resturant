@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - Login 6AM Kitchen</title>
+    <style>
+        body {
+			margin: 0;
+			font-family: Arial, sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center; /* Center align items */
+			/* overflow: hidden; */ /* Remove or comment out this line */
+		}
+
+
+        /* Animated Background */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(red, blue);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            z-index: -1; /* Send background behind other content */
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4em; /* Size of the company name */
+            margin: 40px 0 10px 0; /* Space above and below the heading */
+            color: white; /* Teal color for the heading */
+        }
+        
+        .address {
+            text-align: center;
+            font-size: 0.8em;
+            color: white; /* Soft gray color */
+            margin-bottom: 20px; /* Space below the address */
+        }
+
+        img.logo {
+            width: 300px; /* Set logo width */
+            height: auto; /* Maintain aspect ratio */
+            margin: 20px 0; /* Space above and below the logo */
+        }
+
+        nav {
+            text-align: center; /* Center the navigation */
+            margin: 20px 0; /* Space above and below the navigation */
+        }
+
+        nav a {
+            margin: 0 15px; /* Space between links */
+            text-decoration: none; /* Remove underline */
+            color: white; /* Link color */
+            font-size: 1.2em; /* Font size for links */
+            transition: color 0.3s; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            color: #0056b3; /* Darker blue on hover */
+        }
+
+        section {
+            padding: 40px 20px; /* Space inside each section */
+            border-top: 2px solid #007BFF; /* Top border for visual separation */
+            margin-top: 20px; /* Space above each section */
+            width: 80%; /* Adjust width of sections */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            border-radius: 10px; /* Rounded corners for sections */
+            background-color: rgba(255, 255, 255, 0.8); /* Light background for sections with transparency */
+            overflow: auto; /* Allow scrolling if content overflows */
+        }
+
+        h2 {
+            text-align: center;
+            color: #333; /* Dark text for section titles */
+            font-size: 2.5em; /* Font size for section titles */
+            margin-bottom: 20px; /* Space below section titles */
+        }
+
+        p {
+            text-align: center; /* Center the paragraph text */
+            font-size: 1.2em; /* Font size for paragraph text */
+            color: #666; /* Gray text color */
+        }
+		ul {
+            list-style-type: none; /* Remove bullet points */
+            padding: 0; /* Remove default padding */
+        }
+
+        li {
+			text-align: center; /* Center the paragraph text */
+            font-size: 1.0em; /* Font size for list items */
+            margin: 10px 0; /* Space above and below each menu item */
+            padding-left: 20px; /* Space in front of menu items */
+    </style>
+</head>
+<body>
+
+<div class="background"></div> <!-- Animated Background -->
+<img src="logo.jpg" alt="6AM Kitchen Logo" class="logo"> <!-- Logo Image -->
+<h1>LOGIN 6AM KITCHEN</h1>
+<p class="address">Road No 2, Near Prasad Hospital, Tulasi Nagar, JNTU, Hyderabad, 500085</p>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#gallery">Food Gallery</a>
+    <a href="#order">Order</a>
+    <a href="#menu">Menu</a> <!-- New Menu Link -->
+</nav>
+
+<section id="home">
+    <h2>Welcome to Login 6AM Kitchen</h2>
+    <p>We are thrilled to announce the grand opening of our newly established food hotel, "Login 6AM Kitchen." Located conveniently on Road No 2, our kitchen is committed to serving you the freshest, most delicious, and authentic meals. Our culinary team has poured their passion and creativity into every dish, ensuring that your dining experience is nothing short of extraordinary.</p>
+    <p>At 6AM Kitchen, we believe that food is more than just a meal; it’s an experience that brings people together. We invite you to indulge in our carefully crafted menu, featuring a wide variety of dishes inspired by local flavors and international cuisine. Whether you’re stopping by for breakfast, lunch, or dinner, you’ll find something delightful to satisfy your cravings.</p>
+    <p>We take great pride in sourcing the highest quality ingredients and maintaining the utmost standards of hygiene. Our welcoming environment is designed to make you feel at home, whether you’re dining alone or with family and friends.</p>
+    <p>Join us on this exciting journey of flavors, community, and culinary excellence. We look forward to welcoming you and sharing our passion for food with you!</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>For inquiries, please reach out at <a href="mailto:vinnu.12434@gmail.com">vinnu.12434@gmail.com</a> or call us at <a href="tel:+919014908994">+919014908994</a>.</p>
+</section>
+
+<section id="gallery">
+    <h2>Food Gallery</h2>
+    <p>Our food gallery showcases the wide variety of delicious dishes that we offer. From traditional tiffins and hearty meals to rich and flavorful biryanis, every dish is made to perfection.</p>
+</section>
+
+<section id="order">
+    <h2>Order Your Meal</h2>
+    <p>Ready to enjoy a great meal? Click below to place your order!</p>
+    <p><a href="https://wa.me/919014908994" target="_blank">Order Now via WhatsApp!</a></p>
+</section>
+
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <p>Explore our diverse menu filled with scrumptious options for every palate. We offer a range of dishes, including:</p>
+    <ul>
+        <li>	Breakfast items: Idli, Dosa, Upma, and more.</li>
+        <li>	Main courses: Biryani, Curry, and Thalis.</li>
+        <li>	Snacks: Samosas, Pakoras, and more.</li>
+        <li>	Desserts: Gulab Jamun, Rasgulla, and more.</li>
+    </ul>
+    <p>Join us for a delightful dining experience where every meal is made with love and care!</p>
+</section>
+
+</body>
+</html>
